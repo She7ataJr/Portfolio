@@ -209,3 +209,18 @@ color: #8150ED;
     box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
 
 }
+/* Project start */
+.project .btn-group button{
+background-color: transparent;
+border: none;
+font: normal 500 16px/130px;
+text-transform: uppercase;
+padding: 2rem 0;
+}
+.project .btn-group button + button{
+    padding-left: 3rem;
+}
+.project .grid .our-project .title h4{
+    font: normal 700 25px/12px;
+    
+}
