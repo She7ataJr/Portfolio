@@ -20,3 +20,78 @@ color:#8150ED;
 color: #8150ED;
 }
 
+/* banner start */
+.banner{
+    background: url(../img/banner/home-banner.png)no-repeat 0% 50%;
+    background-position: center;
+}
+.banner-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+.banner-title h3::after{
+    content: '';
+    height: 2px;
+    width: 18vw;
+    background-color: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+.banner-title h1{
+    font-size: 5rem;
+
+}
+.banner-title h4{
+    font-size: 1.5rem;
+}
+.banner-image img{
+    padding: 7rem;
+    width: 90rem;
+}
+.title-text{
+    font: normal bold 50px/72px var(--roboto);
+}
+.text-upperCase{
+    text-transform: uppercase;
+}
+.button{
+    padding: 0.8rem 2.2rem;
+    font: normal 500 16px/20px var(--roboto);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+.primary-button{
+    background:linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition:0.5s;
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+}
+.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+    transition:1s;
+
+}
+.primary-button::after, .secondary-button::after{
+    content: '';
+    position:absolute;
+    top: -2px; left:-2px;
+    bottom: -2px; right:-2px;
+    background: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+    z-index: -1;
+    border-radius: 4px;
+}
+.secondary-button{
+    background: white;
+    background-clip: padding-box;
+    transition: background 0.5s ease;
+}
+.secondary-button:hover{
+    background: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+    color: whitesmoke;
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+}
