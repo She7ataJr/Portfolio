@@ -6,6 +6,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.font-roboto{
+    font-family: "Roboto",cursive;
+}
+a{
+    text-decoration: none;
+}
 /* navbar customize */
 .nav-links a{
     font-weight: 500;
@@ -94,4 +100,112 @@ color: #8150ED;
     background: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
     color: whitesmoke;
     box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+}
+
+/* About section */
+.para{
+    color: #777777 ;
+    font: normal 16px/25px ;
+    font-family: "Roboto",cursive;
+}
+/* .about{
+    padding: 8rem 5rem;
+
+} */
+.about .about-title h2 span{
+    display: block;
+    font: normal bold 49px/60px ;
+    font-family: 'Roboto',cursive;
+    letter-spacing: 21px;
+}
+.about .about-title .pargraph p{
+    padding:4rem 0;
+}
+/* brand start */
+.brand a:hover{
+    color: #4458dc;
+}
+.first-row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+.first-row .single-brand{
+    border: 1px solid #201f1f17;
+    text-align: center;
+    padding: 1.8rem 0rem;
+    margin: 0.9rem 0rem;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition:transform .4s ease;
+}
+.first-row .single-brand img{
+    width: 50%;
+}
+.first-row .single-brand:hover{
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.0205);
+    transform: scale(1.1);
+}
+.first-row .single-brand:hover{
+   img{ filter: brightness(0.15);}
+}
+.experince{
+    padding-left: 1rem;
+    position: relative;
+}
+.experince span{
+    display: block;
+}
+.years-area{
+    background: url(../img/client-info-bg.png) no-repeat 45px 20px;
+    padding: 2rem 0;
+    width: 40rem;
+    height: 18rem;
+    padding-left: 0rem;
+    position: relative;
+}
+.years{
+    font: normal bold 85px/40px;
+    color: #4458dc;
+    font-size: 66px;
+    z-index: 2;
+}
+.experince .bg-panel{
+    position: absolute;
+    left: -90px; top: 0%;
+    background: #e029290a;
+    width: 400px;
+    height: 400px;
+    margin-left: 190px;
+    z-index: -1;
+}
+.call{
+    padding-left: 100px;
+}
+.call a{
+    color: #8150ED;
+}
+/* Services Start */
+.service{
+    padding:7rem 2rem;
+
+}
+.service-title{
+    padding: 0 14rem;
+}
+.service-title h1{
+    font-size: 35px;
+}
+.services1{
+    background-color: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 95%;
+    margin: 5rem 0.5rem;
+    transition: .7s;
+}
+.services1:hover{
+    /* background-color: #8150ED;
+    box-shadow: rgba(57,56,61,0.205); */
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+
 }
