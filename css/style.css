@@ -56,8 +56,8 @@ color: #8150ED;
     font-size: 1.5rem;
 }
 .banner-image img{
-    padding: 7rem;
-    width: 90rem;
+    padding-top: 7rem;
+    /* width: 90rem; */
 }
 .title-text{
     font: normal bold 50px/72px var(--roboto);
@@ -67,7 +67,7 @@ color: #8150ED;
 }
 .button{
     padding: 0.8rem 2.2rem;
-    font: normal 500 16px/20px var(--roboto);
+    /* font: normal 500 16px/20px var(--roboto); */
     position: relative;
     border: 3px solid transparent;
     border-radius: 4px;
@@ -120,7 +120,10 @@ color: #8150ED;
     display: block;
     font: normal bold 49px/60px ;
     font-family: 'Roboto',cursive;
-    letter-spacing: 21px;
+    /* letter-spacing: 21px; */
+}
+.spacing{
+    letter-spacing: 15px;
 }
 .about .about-title .pargraph p{
     padding:4rem 0;
@@ -162,8 +165,8 @@ color: #8150ED;
 }
 .years-area{
     background: url(../img/client-info-bg.png) no-repeat 45px 20px;
-    padding: 2rem 0;
-    width: 40rem;
+    /* padding: 2rem 0; */
+    /* width: 40rem; */
     height: 18rem;
     padding-left: 0rem;
     position: relative;
@@ -195,7 +198,7 @@ color: #8150ED;
 
 }
 .service-title{
-    padding: 0 14rem;
+    /* padding: 0 14rem; */
 }
 .service-title h1{
     font-size: 35px;
@@ -214,16 +217,16 @@ color: #8150ED;
 
 }
 /* Project start */
-.project .btn-group button{
+.project  button{
 background-color: transparent;
-border: none;
-font: normal 500 16px/130px;
+border: 2px solid transparent;
+/* font: normal 500 16px/130px; */
 text-transform: uppercase;
-padding: 2rem 0;
 }
-.project .btn-group button + button{
+/* .project .btn-group button + button{
     padding-left: 3rem;
-}
+
+} */
 .project .grid .our-project .title h4{
     font: normal 700 25px/12px;
 }
@@ -260,4 +263,47 @@ padding: 2rem 0;
 .owl-dots .owl-dot.active span{
     background-color: #4458dc !important;
     width: 15px;
+}
+
+/* Subscribe Start */
+.subscribe{
+    background:url(../img/subscribe-bg.png) no-repeat;
+    padding: 5rem 0;
+    /* margin: 3rem auto; */
+}
+.subscribe-title h4{
+    /* font: normal 700 30px/30px; */
+    color: whitesmoke;
+}
+.subscribe-title p{
+    color: whitesmoke;
+    /* padding: 1rem 0; */
+}
+.input-textBox input{
+    width: 400px;
+    /* padding: 1.5rem 1rem; */
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+    font: normal 500;
+}   
+
+/* Footer */
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
 }

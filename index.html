@@ -12,6 +12,8 @@
      <link rel="stylesheet" href="vendor/owl-carousel/css/owl.theme.default.min.css">
     <!-- CSS File-->
      <link rel="stylesheet" href="./css/style.css">
+     <!-- Responsive -->
+      <link rel="stylesheet" href="css/responsive.css">
     <title>Document</title>
 </head>
 <body>
@@ -65,7 +67,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 banner-image">
-                    <img src="./img/banner/banner-image.png" class="img-fluid " alt="banner">
+                    <img src="./img/banner/banner-image.png" class="img-fluid imgg" alt="banner">
                 </div>
             </div>
         </div>
@@ -82,9 +84,9 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="about-title">
                             <h2 class="text-upperCase pt-5">
-                                <span>let me</span>
-                                <span>interoduce</span>
-                                <span>Myself</span>
+                                <span class="spacing">let me</span>
+                                <span class="spacing">interoduce</span>
+                                <span class="spacing">Myself</span>
                             </h2>
                             <div class="paragraph py-4 w-75">
                                 <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, dolore labore magnam expedita illo suscipit doloribus quas adipisci minus ab.</p>
@@ -175,8 +177,10 @@
       <!-- Service Start -->
        <section class="service ">
         <div class="container">
+
+
             <div class="row">
-                <div class="col-lg-12 text-center service-title">
+                <div class="col-lg-12 text-center ">
                     <h1 class="text-upperCase title-txt ">
                         Services Offers
                     </h1>
@@ -185,6 +189,7 @@
                     </p>
                 </div>
             </div>
+
             <div class="container w-100 service-list">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12">
@@ -252,12 +257,12 @@
                     <h1 class="text-upperCase title-h1">Recently Done Projects</h1>
                     <h1 class="text-upperCase title-h1">Quality work</h1>
                 </div>
-                <div class="btn-group">
-                    <button class="active  btns" type="button">All</button>
-                    <button class="  btns"  type="button">Popular</button>
-                    <button class="  btns" type="button">Latest</button>
-                    <button class="  btns"  type="button">Following</button>
-                    <button class="  btns"  type="button">Upcoming</button>
+                <div class="btnss d-flex py-4 flex-wrap w-50 ">
+                    <button class="  btn" type="button">All</button>
+                    <button class="  btn"  type="button">Popular</button>
+                    <button class="  btn" type="button">Latest</button>
+                    <button class="  btn"  type="button">Following</button>
+                    <button class="  btn"  type="button">Upcoming</button>
                 </div>
                 <div class="row grid">
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
@@ -406,6 +411,57 @@
                 </div>
             </div>
          </section>
+         <!-- Subscribe Start -->
+         <section class="Subscribe-area">
+            <div class="container me-3 subscribe">
+                <div class="row">
+                    <div class="col-lg-10 text-center subscribe-title">
+                        <h4 class="text-upperCase">Get Update Form Anywhere</h4>
+                        <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, incidunt?</p>
+                    </div>
+                </div>
+
+                <div class="d-sm-flex justify-content-center">
+                    <div class="form w-50">
+                        <div class="row flex-row flex-wrap">
+                            <div class="col input-textBox">
+                                <input type="text" id="txtmail" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="col">
+                                <div class="btn-submit">
+                                    <button class=" btn btn-success">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Footer Start -->
+         <footer class="footer-area">
+            <div class="container">
+                <div class="">
+                    <div class="site-logo text-center py-4">
+                        <a href="#"><img src="./img/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="social text-center">
+                        <h5 class="text-uppercase">Follow me</h5>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="copyrights text-center">
+                        <p class="para">
+                            Copyright ©2019 All rights reserved | This template is made with by
+                            <a href="#"><span style="color: var(--primary-color);">Daily Tuition</span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
          <!-- jquery -->
           <script src="./js/jquery.js"></script>
     <!--bootstrap js  -->
