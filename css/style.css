@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: var(--roboto)
 }
+
 .primary-color{
     background-color: #4458dc;
 }
@@ -133,6 +134,9 @@ color: #8150ED;
 }
 /* brand start */
 .brand a:hover{
+    color: #4458dc;
+}
+.btn1:hover{
     color: #4458dc;
 }
 .first-row .col-lg-4{
