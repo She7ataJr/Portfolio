@@ -1,1 +1,34 @@
 /* will start soon */
+@media screen and (max-width: 376px) {
+    html{
+        text-align: center;
+    }
+    .primary-button{
+        margin-bottom: 10px;
+    }
+    .form-control{
+        width: 90% !important;
+    }
+    img{
+        width: 100%;
+    }
+  .brand {
+    .container {
+      .row {
+        .years-area {
+          width: 100%;
+        }
+        .bg-panel {
+            position: absolute;
+            left: -90px;
+            top: 0%;
+            background: #e029290a;
+            width: 65%;
+            height: 400px;
+            margin-left: 190px;
+            z-index: -1;
+          }
+      }
+    }
+  }
+}

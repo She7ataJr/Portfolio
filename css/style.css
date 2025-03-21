@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: var(--roboto)
 }
+.primary-color{
+    background-color: #4458dc;
+}
 .title-h1{
     font: normal bold 39px/40px;
     font-family: "Poppins",cursive;
@@ -181,7 +184,7 @@ color: #8150ED;
     position: absolute;
     left: -90px; top: 0%;
     background: #e029290a;
-    width: 400px;
+    width: 70%;
     height: 400px;
     margin-left: 190px;
     z-index: -1;
@@ -271,6 +274,9 @@ text-transform: uppercase;
     padding: 5rem 0;
     /* margin: 3rem auto; */
 }
+.form-control{
+    width: 70% !important;
+}
 .subscribe-title h4{
     /* font: normal 700 30px/30px; */
     color: whitesmoke;
@@ -280,7 +286,7 @@ text-transform: uppercase;
     /* padding: 1rem 0; */
 }
 .input-textBox input{
-    width: 400px;
+    width: 100%;
     /* padding: 1.5rem 1rem; */
     border: 1px solid whitesmoke;
     background: transparent;
